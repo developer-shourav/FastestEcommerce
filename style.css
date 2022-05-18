@@ -1,0 +1,117 @@
+/*=================================================================
+                         Common Style
+===================================================================*/
+footer a{
+    text-decoration: none;
+   
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+/*=================================================================
+                Header section Style
+===================================================================*/
+.nav-color-home{
+    color:#ffbb00;
+    text-shadow: 1px 1px 1px #949494;
+    font-weight: bold;
+}
+
+.nav-manu-items-color{
+    color:#FF277C;
+    text-shadow: 1px 1px 1px #a8a8a8de;
+    font-weight: bold;
+ 
+
+}
+.nav-manu-item{
+    transition: all .3s ease;
+   
+
+}
+.nav-manu-item:hover{
+   transform: scale(1.25);
+
+}
+.nav-manu-item:hover .nav-manu-items-color{
+      text-shadow: 1px 1px 1px #525252e5;
+
+}
+.nav-shadow{
+    box-shadow: 1px 1px 11px #9e9e9e7e;
+}
+.slider-margin{
+    margin: 160px 0px 100px;
+}
+.slider-bg{
+    background-color: #fcedeb;
+}
+
+.slider-rounded{
+    border-radius:15px;
+}
+.slider-price-color{
+    color: #ff136f;
+}
+
+
+.panda-buying-btn{
+    color: #fff;
+    background-image:linear-gradient(#ff89b6, #d80053);
+    border-radius: 8px;
+    padding: 9px 25px;
+    margin-left: 5px;
+    border: none;
+    box-shadow: 1px 1px  10px -1px #646464b9;
+    transition:all .3s ease;
+}
+
+.panda-buying-btn:hover{
+   transform: scale(1.1);
+   box-shadow: 0px 3px 15px -1px #646464b9;
+}
+/*=================================================================
+                  Product catagories Style
+===================================================================*/
+.bag-bg{
+   background-color: #ff713df5;
+   color: #fff;
+}
+.watch-bg{
+  background-color:#ffa500;
+  color: #fff;
+}
+
+.shoes-bg{
+     background-color: #01dbc2;
+    
+    color: #fff;
+}
+
+.tv-bg{
+    background-color: #5498ff;
+    color: #fff;
+}
+.headphone-bg{
+    background-color:#ff136f;
+    color:#fff ;
+}
+.mobile-bg{
+     background-color: #D800F7;
+   
+    color: #fff;
+    
+}
+
+
+.all-product-name{
+    color:#fcc213;
+    text-shadow: 1px 1px 1px #242424bd;
+}
